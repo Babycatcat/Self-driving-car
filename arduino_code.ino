@@ -35,7 +35,7 @@ void initMotor() {
   pinMode(PWMB, OUTPUT);
   pinMode(STBY, OUTPUT);
 
-  //初始化TB6612馬達驅動模組
+  
   digitalWrite(AIN1, 1);
   digitalWrite(AIN2, 0);
   digitalWrite(BIN1, 1);
